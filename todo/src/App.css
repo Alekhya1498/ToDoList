@@ -1,0 +1,17 @@
+/* Set the background color to something light*/
+.app {
+  padding: 30px;
+  background-color: floralwhite;
+}
+
+/*
+Use flexbox to display the list items in a row.
+Read more about CSS flexbox -- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+*/
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  font-family: fantasy;
+  justify-content: space-between;
+}
